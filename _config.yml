@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Julius Erbach"
+title                    : "Home"
 title_separator          : "-"
-name                     : &name "Julius Erbach"
-description              : &description "PhD Student at ETH Zurich and Max Planck Institute for Intelligent Systems"
+name                     : &name "Home"
+description              : &description "Personal website"
 url                      : https://juliuserbach.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "juliuserbach/juliuserbach.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Julius Erbach"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student at ETH Zurich And Max Planck Institute for Intelligent Systems"
+  bio              : "Ph.D. Student at ETH Zurich And Max Planck Institute for Intelligent Systems"
   location         : "Zurich, Switzerland"
   employer         : "ETH Zurich, MPI Saarbruecken"
   uri              : # URL
