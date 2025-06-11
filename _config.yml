@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Student at ETH Zurich and MPI Saarbruecken"
   location         : "Zurich, Switzerland"
-  employer         : "ETH Zurich, MPI Saarbruecken"
+  employer         : "ETH Zurich, <br> MPI Saarbruecken"
   uri              : # URL
   email            : "julius.erbach@gmail.com"
 

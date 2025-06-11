@@ -1,0 +1,69 @@
+/* Custom styles for archive items */
+.archive__item {
+    /* This is the main container for each publication entry */
+    display: flex;
+    /* Use flexbox to align items in a row */
+    align-items: flex-start;
+    /* Align items to the top */
+    margin-bottom: 1em;
+    /* Space below each entry */
+}
+
+/* Commenting out .archive__item-header as it might conflict with the .archive__item flex layout */
+/*
+.archive__item-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+*/
+
+.archive__item-teaser-small {
+    flex-shrink: 0;
+    /* Prevent the teaser from shrinking */
+    margin-right: 1em;
+    /* Add some space between the teaser and the text content */
+    width: 156px;
+    /* Or any specific width you prefer for the small teaser */
+    /* height: auto; */
+    /* height:auto is default for img, explicitly setting on div can be tricky */
+}
+
+.archive__item-teaser-small img {
+    max-width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Ensures the image behaves as a block element within its container */
+    border-radius: 4px;
+    /* Optional: if you want rounded corners for the image */
+}
+
+.archive__item-content-wrapper {
+    /* This div wraps all the text content */
+    flex-grow: 1;
+    /* Allows the text content to take up the remaining space */
+}
+
+.archive__item-title {
+    margin-top: 0;
+    /* Ensure title aligns to the top with the image */
+    margin-bottom: 0;
+    /* Changed from 0.25em to 0 to remove space between title and authors */
+}
+
+/* Remove top margin from paragraph immediately following the title (authors) */
+.archive__item-title+p {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    /* Keep some space before the next element like 'Published in...' */
+}
+
+/* Remove or comment out the clearfix if flexbox is handling the layout */
+/*
+.archive__item-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+*/
